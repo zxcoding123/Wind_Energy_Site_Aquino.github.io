@@ -1,0 +1,52 @@
+.marquee {
+    width: 100%; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    box-sizing: border-box;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-right: 100%; 
+    animation: marquee 9.5s linear infinite;
+    vertical-align: middle;
+}
+
+.marquee-1 {
+    width: 100%; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    box-sizing: border-box;
+}
+
+.marquee-1 span {
+    display: inline-block;
+    padding-right: 100%; 
+    animation: marquee-1 10s linear infinite;
+    vertical-align: middle;
+}
+
+
+.text-ast{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
+@keyframes marquee-1 {
+    0% {
+        transform: translateX(-100%); 
+    }
+    100% {
+        transform: translateX(100%); 
+    }
+}
+

@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+* {
+    font-family: 'Poppins';
+
+}
+
+.landing-section {
+    background-image: url('../../external/img/0223-F1-1-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.double-slash {
+    margin-right: 60px;
+}
+
+.small-text-slogan {
+    width: 50%;
+    text-align: justify;
+}
+
+.top-space {
+    margin-top: 50px;
+}
+
+.get-started {
+    background-color: white;
+    border: none;
+    border-radius: 60px;
+    text-transform: uppercase;
+    color: black !important;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 12px;
+    margin-top: 100px;
+    width: fit-content;
+}
+
+ .get-started-text {
+    margin-right: 120px;
+}
+
+.left-col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: baseline;
+}
+
+.join-the-change-section, .var-reason-section, .marquee-section {
+    padding: 60px;
+    background: rgb(255,255,255);
+    background: linear-gradient(24deg, rgba(255,255,255,1) 0%, rgba(188,217,246,1) 100%);
+}
+
+.get-started-div {
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+}
+
+.gs-text {
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
+
+.icon-black {
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.text-info-jc {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.imager{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius:20px;
+    height:fit-content;
+    width: 90%;
+}
+
+.jcc-section{
+    margin-top: 50px !important;
+}
+
+.image-round{
+    border-radius: 20px;
+    height: 175px;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.btn-gs{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.get-started-div{
+    background-color: black !important;
+    color: white !important;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.gs-text-btn{
+    vertical-align: middle;
+}
+
+.new-container{
+    padding: 60px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,246,1) 100%);
+}
+
+.img-cont{
+
+    height: 75vh;
+    background-image: url('../img/wind-big.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.p-relative-end{
+    position: sticky !important;
+    top: 50%;
+    left: 100%;
+}
+
+.gs-btn-1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: #092143;
+    color: white;
+    padding: 20px;
+}
+
+.f-text-bot{
+    margin-top: 100px;
+}
+
+.icon{
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+    color: #092143;
+}
+
+.white-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0.2px solid black;
+}
+
+.white-container-no-border{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
